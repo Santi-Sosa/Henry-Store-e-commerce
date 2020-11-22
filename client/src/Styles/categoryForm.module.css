@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+.inputCategory {
+    display: flex;
+    flex-direction: column; 
+    background-color:#ffffff;
+    color: #949494;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    padding: .5em;
+    font-size: 1em;
+    margin: .3em;
+    width: 70%;
+    justify-content: space-evenly;
+}
+.inputCategory:focus{
+    background-color: rgb(202, 202, 202);
+    color: black;
+    padding: 0.6em;
+}
+.cardCategoryForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFF01;
+    margin: 0 auto;
+    width: 25em;
+    height: 20em;
+    box-shadow: 6px 6px 6px rgba(77, 77, 77, 0.514);
+}
+.containerCategoryForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  10em auto;
+}
+.containerCategoryForm h3 {
+ color: black;   
+}
+.submitCategoryForm{
+    margin: auto;
+    width: 40%;
+    height: 15%;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffd74;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.submitCategoryForm:hover {
+    background-color: black;
+    color: white;
+    opacity: 100%;
+    width: 42%;
+    height: 17%;
+}

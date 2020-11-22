@@ -1,0 +1,15 @@
+.divResults {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 15px;
+    padding: 0px 0px 20px 0px;
+}
+.divResults h1 {
+    color: white;
+    width: 100%;
+}

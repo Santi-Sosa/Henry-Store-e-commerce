@@ -1,0 +1,39 @@
+.checkoutContainer{
+    background-color: yellow;
+    width: 30%;
+    margin: 5em auto;
+    padding: 3em;
+}
+.checkoutTittle{
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+}
+.checkoutForm {
+    display: flex;
+    flex-direction: column;
+}
+.checkoutForm h3{
+    font-weight: 400;
+}
+.checkoutSelect{
+    padding: .5em
+}
+.checkoutInput{
+    padding: .5em
+}
+
+.checkoutSubmit{
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+}

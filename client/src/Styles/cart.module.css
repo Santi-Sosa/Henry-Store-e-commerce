@@ -1,0 +1,41 @@
+.title{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: #FFFF01;
+    margin: auto;
+    margin-top: 80px;
+}
+.title h1, h2 {
+    padding: 15px;
+}
+.cartTable{
+    text-align: center;
+    background-color: black;
+    padding: 8px;
+}
+
+.cartTable tr{
+    font-size: 0.9em;
+}
+.sectionTable{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+.buttonsAddRemove {
+    width: 25px;
+    height: auto;
+    
+}
+.iconAddRemove{
+    color: white;
+}
+.iconAddRemove:hover {
+    color: black;
+    border-radius: 25px;
+    background-color: #FFFF01;
+}

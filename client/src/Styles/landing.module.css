@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+html a:link {
+    text-decoration: none;
+    transition: 0.3s;
+    opacity: 100%;
+    color: inherit;
+}
+html a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+html a:hover {
+    text-decoration: none;
+    opacity: 55%;
+}
+
+section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    padding-top: 55px;
+}
+section:nth-of-type(1) {
+    background-color: black;
+}
+
+section:nth-of-type(2) {
+    background-color: #dddd37;
+}
+.textBox {
+    position:relative;
+    top:0;
+    float: left;
+    width: 600px;
+    max-width: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.5s;
+}
+.textBox a{
+    transition: color 0.3s ease-in-out;
+}
+.textBox h2 {
+    height: 5px;
+    color: white;
+    font-size: 5em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+.textBox p {
+    color: #FFFF01;
+    font-size:5em;
+    font-weight: 900;
+    order: 2;
+    margin-left: 20px;
+}
+.textBox a {
+    display: inline-block;
+    max-height: 25px;
+    padding: 18px 20px;
+    width: 150px;
+    text-align: center;
+    background:#FFFF01;
+    border-radius: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    order: 3;
+    font-family: 'Poppins', sans-serif;
+}
+.textBox img {
+    width: 300px;
+    flex-basis: 20%;
+    padding-top: 13px;
+    height: auto;
+    order: 1;
+    align-self: center;
+}
+
+.productSection {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    height: auto;
+    background: #131313;
+}
+.productSection span{
+    width: 45%;
+    height: 40px;
+    margin-bottom: 50px;
+}
+.productSection h1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 7px 5px 5px 35px;
+    border-radius: 5px;
+}
+
+.selectCategory {
+    width: 45%;
+    height: 40px;
+    margin-bottom: 50px;
+    
+}
+.divSelector{
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width:600px) {
+    section{
+        padding-top: 35px;
+    }
+    .textBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textBox h2{
+        font-size: 2.5em;
+    }
+    .textBox img{
+        width: 16em;
+        height: auto;
+        padding-top: 60px;
+    }
+    .textBox p{
+        font-size: 4em;
+        margin-left: 0px;
+    }
+}

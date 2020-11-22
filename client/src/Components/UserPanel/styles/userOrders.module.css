@@ -1,0 +1,12 @@
+.userTable{
+    width: 100%;
+    border-collapse: collapse;  
+}
+.userTable thead{
+    background-color: #ffff57;
+    text-align: left;  
+    text-transform: uppercase;
+}
+.userTable tbody{
+    text-transform: uppercase;
+}
